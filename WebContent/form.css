@@ -1,0 +1,49 @@
+@CHARSET "ISO-8859-1";
+input[type=text], select 
+{
+  background-color: #FFFBEB;
+  width: 100%;
+  padding: 10px 15px;
+  margin: 4px 0;
+  display: block;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'PT Serif', serif;
+}
+
+input[type=submit] 
+{
+  width: 100%;
+  background-color: #f2f2f2;
+  color: black;
+  font-weight: bold;
+  font-family: 'PT Serif', serif;
+  padding: 10px 15px;
+  margin: 4px 0;
+  border: 2px solid #7f1d1d;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+input[type=submit]:hover 
+{
+  background-color: #ddd;
+}
+
+.form-box 
+{
+  border-radius: 6px;
+  background-color: #FECACA;
+  padding: 3px;
+  width:65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  border: 2px solid #7f1d1d;
+}
+.boxicon
+{
+	margin: 15px 35%;
+}

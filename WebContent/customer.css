@@ -1,0 +1,79 @@
+@CHARSET "ISO-8859-1";
+
+body 
+{
+	background-image: url("img/the-town-bg-01.jpg");
+	height: 100%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body .form_wrapper{
+
+    display:inline-block;
+    background-color: #6c757d;
+    border-radius: 25px;
+    height: auto;
+    padding: 15px 18px;
+    margin: 10% auto;
+    margin-left: auto;
+    margin-right: auto;
+} 
+form
+{
+	display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+input
+{
+ display: block;
+ width: 150px;
+ float: center;
+ margin-bottom: 10px;
+}
+table 
+{
+	border-collapse: collapse;
+	margin: auto;
+	padding: 10px;
+	font-size: 17px;
+	margin-bottom: 50px;
+	width:88%;
+	margin-top: 10px;
+}
+td, th 
+{
+	border: 1.5px solid #7F1D1D;
+	border-radius: 1.5px;
+	padding: 10px;
+	text-align: center;
+}
+tr:nth-child(odd) 
+{
+	background-color: #6c757d;
+}
+tr:nth-child(even) 
+{
+	background-color: #FECACA;
+}
+tr:hover 
+{
+	background-color: #6c757d;
+}
+th 
+{
+	background-color: #6c757d;
+	color: white;
+}
+.trans-btn
+{
+    text-decoration: none;
+    border: 1px solid #7F1D1D;
+    padding: 5px;
+    border-radius: 1rem;
+    margin: 3px;
+    background: #F87171;
+    color: white;
+}
